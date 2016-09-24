@@ -10,7 +10,6 @@ describe('User API', function() {
         .expect(200)
         .expect("Content-Type", /html/)
         .end(function(err, res) {
-          console.log(process.ENV)
           if(err) throw done(err);
           done();
         })
