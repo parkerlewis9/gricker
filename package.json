@@ -2,7 +2,7 @@
   "name": "gricker",
   "version": "1.0.0",
   "description": "Group picker app by Dom Smith and Parker Lewis",
-  "main": "app.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,9 +18,13 @@
   "homepage": "https://github.com/parkerlewis9/gricker",
   "dependencies": {
     "browser-sync": "^2.16.0",
+    "browserify": "^13.1.0",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
     "gulp": "^3.9.1",
-    "gulp-live-server": "0.0.30"
+    "gulp-live-server": "0.0.30",
+    "react": "^15.3.2",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
