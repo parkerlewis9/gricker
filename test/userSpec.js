@@ -7,6 +7,8 @@ describe('User API', function() {
     it('respond with a status code of 200 and content-type of html', function(done) {
       request("http://localhost:7777")
         .post("/users/signup")
+        .field("name", "Parker Lewis")
+        .field("password", "shhh")
         .expect(200)
         .expect("Content-Type", /html/)
         .end(function(err, res) {
