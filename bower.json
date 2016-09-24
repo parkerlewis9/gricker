@@ -1,0 +1,17 @@
+{
+  "name": "gricker",
+  "description": "Group picker app by Dom Smith and Parker Lewis",
+  "main": "app.js",
+  "authors": [
+    "415DomSmith <415.dominic.smith@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/parkerlewis9/gricker",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

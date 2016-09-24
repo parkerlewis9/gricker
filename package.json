@@ -1,0 +1,22 @@
+{
+  "name": "gricker",
+  "version": "1.0.0",
+  "description": "Group picker app by Dom Smith and Parker Lewis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parkerlewis9/gricker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parkerlewis9/gricker/issues"
+  },
+  "homepage": "https://github.com/parkerlewis9/gricker",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
