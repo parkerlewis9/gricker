@@ -24,4 +24,4 @@ app.listen(7777, function(){
   console.log("Server started on port 7777");
 });
 
-module.exports = app
+// module.exports = app
