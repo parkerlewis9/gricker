@@ -18,6 +18,8 @@
   "homepage": "https://github.com/parkerlewis9/gricker",
   "dependencies": {
     "boron": "^0.2.3",
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
     "browser-sync": "^2.16.0",
     "browserify": "^13.1.0",
     "ejs": "^2.5.2",
@@ -30,5 +32,9 @@
     "react-dom": "^15.3.2",
     "reactify": "^1.1.1",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2",
+    "supertest": "^2.0.0"
   }
 }
