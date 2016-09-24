@@ -31,6 +31,10 @@ bower_components
 node_modules
 jspm_packages
 
+# Temporary directory
+
+.tmp
+
 # Optional npm cache directory
 .npm
 
