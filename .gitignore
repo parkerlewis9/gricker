@@ -32,7 +32,7 @@ node_modules
 jspm_packages
 
 # Temporary directory
-
+.DS_Store
 .tmp
 
 # Optional npm cache directory

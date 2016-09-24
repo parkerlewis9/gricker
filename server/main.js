@@ -3,7 +3,7 @@ var app = new express();
 var knex = require("../db/knex.js");
 var server = require("./routes/index.js");
 
-app.set('views', './app')
+app.set('views', './app/views')
 app.set("view engine", "ejs")
 app.use(express.static( __dirname + "/../.tmp"))
 
