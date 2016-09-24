@@ -23,3 +23,5 @@ server.users.use("/classes", server.classes)
 app.listen(7777, function(){
   console.log("Server started on port 7777");
 });
+
+module.exports = app
